@@ -1,0 +1,27 @@
+.wrapper-root {
+  width: max-content;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.wrapper > button {
+  min-width: 65px;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
